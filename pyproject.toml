@@ -2,7 +2,7 @@
 name = "when-the-imposter-is-sus"
 version = "1.0.0"
 description = "bla bla bla"
-authors = ["SealedSaucer"]
+authors = ["the-mindscape"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11"
