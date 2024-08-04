@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "Online-Forever"
+name = "when-the-imposter-is-sus"
 version = "1.0.0"
-description = "A code that can make your discord account 24/7!"
+description = "bla bla bla"
 authors = ["SealedSaucer"]
 
 [tool.poetry.dependencies]
