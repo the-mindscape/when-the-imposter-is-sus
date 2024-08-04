@@ -6,9 +6,9 @@ import requests
 import websocket
 from keep_alive import keep_alive
 
-status = "online" #online/dnd/idle
+status = "dnd" #online/dnd/idle
 
-custom_status = "youtube.com/@SealedSaucer" #If you don't need a custom status on your profile, just put "" instead of "youtube.com/@SealedSaucer"
+custom_status = "" #If you don't need a custom status on your profile, just put "" instead of "youtube.com/@SealedSaucer"
 
 usertoken = os.getenv("TOKEN")
 if not usertoken:
@@ -55,7 +55,7 @@ def onliner(token, status):
                 {
                     "type": 4,
                     "state": custom_status,
-                    "name": "Custom Status",
+                    "name": "Your place, Our home.",
                     "id": "custom",
                     #Uncomment the below lines if you want an emoji in the status
                     #"emoji": {
